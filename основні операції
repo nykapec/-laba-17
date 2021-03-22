@@ -10,7 +10,7 @@ namespace ConsoleApp9
             name = "Petj";
 
             Console.WriteLine($"{MSG}, {name}");
-            MSG = "Hello Hello";
+            
             Console.ReadKey();
         }
     }
