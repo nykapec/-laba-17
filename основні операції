@@ -5,11 +5,12 @@ namespace ConsoleApp9
     {
         static void Main(string[] args)
         {
-            const string MSG = "Hello";
+            string msg;
+            msg = "Hello";
             string name = "vasj";
-            name = "Petj";
+            
 
-            Console.WriteLine($"{MSG}, {name}");
+            Console.WriteLine($"{msg}, {name}");
             
             Console.ReadKey();
         }
