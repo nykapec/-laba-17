@@ -1,0 +1,16 @@
+using System;
+namespace ConsoleApp9
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            string msg;
+            msg = "Hello";
+            string name = "Vasj";
+
+            Console.WriteLine($"{msg}, {name}");
+            Console.ReadKey();
+        }
+    }
+}
