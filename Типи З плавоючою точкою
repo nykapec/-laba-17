@@ -5,12 +5,10 @@ namespace ConsoleApp9
     {
         static void Main(string[] args)
         {
-            char char_literal = 'A';
-            char hexadecimal = '\x0041';
-            char integer = (char)65;
-            char unicode = '\u0041';
+            float f = 1.1f, fs = 1.0f;
+            const double pi = 3.14;
 
-            Console.WriteLine(char_literal + " "  + hexadecimal + " " + integer + " " + unicode);
+            Console.WriteLine("f={0} pi={1} fs={2}",f,pi,fs);
             Console.ReadKey();
         }
     }
